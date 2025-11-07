@@ -193,37 +193,116 @@ erDiagram
 
 ## 4. Project Execution
 
-### 1. Start Kafka
+### 1) Create and Activate the Virtual Environment
+
+> Recommended: use an isolated virtual environment for this project.
+
+**macOS / Linux / WSL**
 
 ```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+**Windows (PowerShell)**
+
+```powershell
+python -m venv .venv
+.\\.venv\\Scripts\\Activate.ps1
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+---
+
+### 2) Configure Credentials and Environment Variables
+
+Some scripts connect to **MySQL** and **Kafka**.
+Make sure to adjust the connection parameters (either directly in the scripts or via environment variables).
+
+**Files that use database or Kafka credentials:**
+
+* `consumer_happiness.py`
+
+  * MySQL: `MYSQL_HOST`, `MYSQL_PORT`, `MYSQL_USER`, `MYSQL_PASSWORD`, `MYSQL_DB`
+  * Kafka: `KAFKA_BOOTSTRAP`, `KAFKA_TOPIC`
+* `happiness_model_dashboard.py`
+
+  * Adjust the MySQL connection string (user, password, host, port, and database).
+
+Make sure your configuration values look like this:
+
+```env
+# MySQL
+MYSQL_HOST=localhost
+MYSQL_PORT=3306
+MYSQL_USER=root
+MYSQL_PASSWORD=root
+MYSQL_DB=etl_workshop3
+
+# Kafka
+KAFKA_BOOTSTRAP=localhost:9092
+KAFKA_TOPIC=happiness-topic
+
+# Model and split files
+MODEL_PATH=model/happiness_regression.pkl
+SPLIT_FILE=artifacts/split_membership.csv
+```
+
+---
+
+### 3) Start Kafka and Create the Topic
+
+Make sure Kafka is running and create the topic used by the producer and consumer.
+
+```bash
+# Start Zookeeper and Kafka broker
 bin/zookeeper-server-start.sh config/zookeeper.properties
 bin/kafka-server-start.sh config/server.properties
+
+# Create topic
+bin/kafka-topics.sh --create \
+  --topic happiness-topic \
+  --bootstrap-server localhost:9092
 ```
 
-### 2. Create the topic
+---
 
-```bash
-bin/kafka-topics.sh --create --topic happiness-topic --bootstrap-server localhost:9092
-```
+### 4) Run the Streaming Workflow (Producer → Consumer)
 
-### 3. Run the producer
+**In one terminal (Producer):**
 
 ```bash
 python producer_happiness.py
 ```
 
-### 4. Run the consumer
+**In another terminal (Consumer):**
 
 ```bash
 python consumer_happiness.py
 ```
 
-### 5. Verify results in MySQL
+**Verify data in MySQL:**
 
 ```sql
 USE etl_workshop3;
 SELECT * FROM fact_predictions LIMIT 10;
 ```
+
+---
+
+### 5) Run the Dashboard (Visualizations and KPIs)
+
+The dashboard uses the data stored in the MySQL database populated by the consumer.
+
+```bash
+python happiness_model_dashboard.py
+```
+
+Then, open the URL displayed in the terminal (by default:
+[http://127.0.0.1:8050/](http://127.0.0.1:8050/)).
 
 ---
 
