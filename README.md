@@ -15,7 +15,7 @@ The workflow is divided into two complementary stages:
 
 To train a regression model capable of predicting the **Happiness Score** based on socioeconomic indicators, and deploy it within a **real-time data streaming pipeline** using Apache Kafka, storing the predictions in a relational data warehouse for analytical purposes.
 
-## Gebral Flow
+## General Flow
 <img width="909" height="545" alt="image" src="https://github.com/user-attachments/assets/02ac3325-fb25-4791-89fe-5dfcece80981" />
 
 ---
