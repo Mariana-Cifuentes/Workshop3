@@ -203,7 +203,6 @@ erDiagram
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
-pip install -r requirements.txt
 ```
 
 **Windows (PowerShell)**
@@ -212,12 +211,30 @@ pip install -r requirements.txt
 python -m venv .venv
 .\\.venv\\Scripts\\Activate.ps1
 python -m pip install --upgrade pip
-pip install -r requirements.txt
 ```
 
 ---
 
-### 2) Configure Credentials and Environment Variables
+### 2) Install Project Dependencies
+
+Once the virtual environment is active, install all required dependencies from the `requirements.txt` file:
+
+```bash
+pip install -r requirements.txt
+```
+
+This will automatically install all necessary libraries for:
+
+* Data handling and analysis (`pandas`, `numpy`, `matplotlib`, `seaborn`, `scipy`)
+* Machine learning (`scikit-learn`, `statsmodels`)
+* Environment management (`python-dotenv`)
+* Streaming and database connection (`kafka-python`, `mysql-connector-python`, `joblib`)
+* Visualization and dashboards (`dash`, `plotly`)
+* Notebook development (`jupyterlab`)
+
+---
+
+### 3) Configure Credentials and Environment Variables
 
 Some scripts connect to **MySQL** and **Kafka**.
 Make sure to adjust the connection parameters (either directly in the scripts or via environment variables).
@@ -232,7 +249,7 @@ Make sure to adjust the connection parameters (either directly in the scripts or
 
   * Adjust the MySQL connection string (user, password, host, port, and database).
 
-Make sure your configuration values look like this:
+Use the following default configuration:
 
 ```env
 # MySQL
@@ -253,9 +270,9 @@ SPLIT_FILE=artifacts/split_membership.csv
 
 ---
 
-### 3) Start Kafka and Create the Topic
+### 4) Start Kafka and Create the Topic
 
-Make sure Kafka is running and create the topic used by the producer and consumer.
+Ensure Kafka is running and create the topic used by the producer and consumer.
 
 ```bash
 # Start Zookeeper and Kafka broker
@@ -270,7 +287,7 @@ bin/kafka-topics.sh --create \
 
 ---
 
-### 4) Run the Streaming Workflow (Producer → Consumer)
+### 5) Run the Streaming Workflow (Producer → Consumer)
 
 **In one terminal (Producer):**
 
@@ -293,7 +310,7 @@ SELECT * FROM fact_predictions LIMIT 10;
 
 ---
 
-### 5) Run the Dashboard (Visualizations and KPIs)
+### 6) Run the Dashboard (Visualizations and KPIs)
 
 The dashboard uses the data stored in the MySQL database populated by the consumer.
 
@@ -301,8 +318,8 @@ The dashboard uses the data stored in the MySQL database populated by the consum
 python happiness_model_dashboard.py
 ```
 
-Then, open the URL displayed in the terminal (by default:
-[http://127.0.0.1:8050/](http://127.0.0.1:8050/)).
+Then open the URL displayed in the terminal (by default:
+[http://127.0.0.1:8050/](http://127.0.0.1:8050/))
 
 ---
 
