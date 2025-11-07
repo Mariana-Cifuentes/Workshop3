@@ -1,0 +1,783 @@
+key,is_train,is_test
+switzerland|2015,1,0
+iceland|2015,1,0
+denmark|2015,0,1
+norway|2015,1,0
+canada|2015,1,0
+finland|2015,1,0
+netherlands|2015,0,1
+sweden|2015,0,1
+new zealand|2015,1,0
+australia|2015,1,0
+israel|2015,0,1
+costa rica|2015,1,0
+austria|2015,1,0
+mexico|2015,1,0
+united states|2015,1,0
+brazil|2015,1,0
+luxembourg|2015,1,0
+ireland|2015,1,0
+belgium|2015,1,0
+united arab emirates|2015,1,0
+united kingdom|2015,1,0
+oman|2015,1,0
+venezuela|2015,1,0
+singapore|2015,0,1
+panama|2015,1,0
+germany|2015,1,0
+chile|2015,1,0
+qatar|2015,1,0
+france|2015,0,1
+argentina|2015,0,1
+czech republic|2015,0,1
+uruguay|2015,0,1
+colombia|2015,1,0
+thailand|2015,0,1
+saudi arabia|2015,1,0
+spain|2015,1,0
+malta|2015,1,0
+taiwan|2015,1,0
+kuwait|2015,1,0
+suriname|2015,0,1
+trinidad & tobago|2015,1,0
+el salvador|2015,0,1
+guatemala|2015,1,0
+uzbekistan|2015,1,0
+slovakia|2015,0,1
+japan|2015,1,0
+south korea|2015,1,0
+ecuador|2015,1,0
+bahrain|2015,1,0
+italy|2015,0,1
+bolivia|2015,1,0
+moldova|2015,1,0
+paraguay|2015,1,0
+kazakhstan|2015,1,0
+slovenia|2015,0,1
+lithuania|2015,0,1
+nicaragua|2015,0,1
+peru|2015,1,0
+belarus|2015,1,0
+poland|2015,1,0
+malaysia|2015,0,1
+croatia|2015,1,0
+libya|2015,1,0
+russia|2015,0,1
+jamaica|2015,1,0
+northern cyprus|2015,0,1
+cyprus|2015,0,1
+algeria|2015,0,1
+kosovo|2015,1,0
+turkmenistan|2015,0,1
+mauritius|2015,0,1
+hong kong|2015,1,0
+estonia|2015,0,1
+indonesia|2015,0,1
+vietnam|2015,1,0
+turkey|2015,1,0
+kyrgyzstan|2015,0,1
+nigeria|2015,0,1
+bhutan|2015,0,1
+azerbaijan|2015,0,1
+pakistan|2015,1,0
+jordan|2015,0,1
+montenegro|2015,1,0
+china|2015,1,0
+zambia|2015,0,1
+romania|2015,1,0
+serbia|2015,0,1
+portugal|2015,1,0
+latvia|2015,1,0
+philippines|2015,1,0
+somaliland|2015,0,1
+morocco|2015,1,0
+macedonia|2015,1,0
+mozambique|2015,1,0
+albania|2015,1,0
+bosnia and herzegovina|2015,1,0
+lesotho|2015,1,0
+dominican republic|2015,0,1
+laos|2015,1,0
+mongolia|2015,1,0
+eswatini|2015,1,0
+greece|2015,0,1
+lebanon|2015,1,0
+hungary|2015,1,0
+honduras|2015,1,0
+tajikistan|2015,1,0
+tunisia|2015,1,0
+palestinian territories|2015,1,0
+bangladesh|2015,0,1
+iran|2015,0,1
+ukraine|2015,1,0
+iraq|2015,1,0
+south africa|2015,1,0
+ghana|2015,1,0
+zimbabwe|2015,1,0
+liberia|2015,1,0
+india|2015,1,0
+sudan|2015,1,0
+haiti|2015,0,1
+congo (kinshasa)|2015,1,0
+nepal|2015,0,1
+ethiopia|2015,1,0
+sierra leone|2015,1,0
+mauritania|2015,1,0
+kenya|2015,1,0
+djibouti|2015,1,0
+armenia|2015,1,0
+botswana|2015,1,0
+myanmar|2015,1,0
+georgia|2015,1,0
+malawi|2015,1,0
+sri lanka|2015,0,1
+cameroon|2015,0,1
+bulgaria|2015,0,1
+egypt|2015,1,0
+yemen|2015,0,1
+angola|2015,0,1
+mali|2015,0,1
+congo (brazzaville)|2015,1,0
+comoros|2015,1,0
+uganda|2015,0,1
+senegal|2015,1,0
+gabon|2015,1,0
+niger|2015,1,0
+cambodia|2015,1,0
+tanzania|2015,0,1
+madagascar|2015,1,0
+central african republic|2015,1,0
+chad|2015,0,1
+guinea|2015,1,0
+ivory coast|2015,1,0
+burkina faso|2015,1,0
+afghanistan|2015,1,0
+rwanda|2015,1,0
+benin|2015,1,0
+syria|2015,0,1
+burundi|2015,1,0
+togo|2015,1,0
+denmark|2016,0,1
+switzerland|2016,1,0
+iceland|2016,1,0
+norway|2016,1,0
+finland|2016,1,0
+canada|2016,1,0
+netherlands|2016,0,1
+new zealand|2016,0,1
+australia|2016,1,0
+sweden|2016,1,0
+israel|2016,0,1
+austria|2016,1,0
+united states|2016,1,0
+costa rica|2016,1,0
+puerto rico|2016,1,0
+germany|2016,1,0
+brazil|2016,0,1
+belgium|2016,1,0
+ireland|2016,1,0
+luxembourg|2016,1,0
+mexico|2016,1,0
+singapore|2016,1,0
+united kingdom|2016,1,0
+chile|2016,0,1
+panama|2016,1,0
+argentina|2016,1,0
+czech republic|2016,1,0
+united arab emirates|2016,1,0
+uruguay|2016,1,0
+malta|2016,1,0
+colombia|2016,1,0
+france|2016,1,0
+thailand|2016,1,0
+saudi arabia|2016,1,0
+taiwan|2016,0,1
+qatar|2016,0,1
+spain|2016,1,0
+algeria|2016,1,0
+guatemala|2016,0,1
+suriname|2016,1,0
+kuwait|2016,1,0
+bahrain|2016,0,1
+trinidad & tobago|2016,1,0
+venezuela|2016,1,0
+slovakia|2016,1,0
+el salvador|2016,1,0
+malaysia|2016,0,1
+nicaragua|2016,1,0
+uzbekistan|2016,1,0
+italy|2016,1,0
+ecuador|2016,0,1
+belize|2016,0,1
+japan|2016,0,1
+kazakhstan|2016,0,1
+moldova|2016,0,1
+russia|2016,0,1
+poland|2016,1,0
+south korea|2016,0,1
+bolivia|2016,1,0
+lithuania|2016,1,0
+belarus|2016,0,1
+northern cyprus|2016,1,0
+slovenia|2016,0,1
+peru|2016,1,0
+turkmenistan|2016,1,0
+mauritius|2016,1,0
+libya|2016,1,0
+latvia|2016,1,0
+cyprus|2016,1,0
+paraguay|2016,0,1
+romania|2016,1,0
+estonia|2016,1,0
+jamaica|2016,1,0
+croatia|2016,0,1
+hong kong|2016,1,0
+somalia|2016,1,0
+kosovo|2016,0,1
+turkey|2016,0,1
+indonesia|2016,1,0
+jordan|2016,1,0
+azerbaijan|2016,1,0
+philippines|2016,0,1
+china|2016,1,0
+bhutan|2016,1,0
+kyrgyzstan|2016,1,0
+serbia|2016,1,0
+bosnia and herzegovina|2016,0,1
+montenegro|2016,1,0
+dominican republic|2016,1,0
+morocco|2016,0,1
+hungary|2016,1,0
+pakistan|2016,1,0
+lebanon|2016,0,1
+portugal|2016,1,0
+macedonia|2016,1,0
+vietnam|2016,1,0
+somaliland|2016,1,0
+tunisia|2016,1,0
+greece|2016,1,0
+tajikistan|2016,1,0
+mongolia|2016,1,0
+laos|2016,0,1
+nigeria|2016,0,1
+honduras|2016,1,0
+iran|2016,1,0
+zambia|2016,1,0
+nepal|2016,0,1
+palestinian territories|2016,0,1
+albania|2016,0,1
+bangladesh|2016,1,0
+sierra leone|2016,1,0
+iraq|2016,1,0
+namibia|2016,1,0
+cameroon|2016,1,0
+ethiopia|2016,1,0
+south africa|2016,1,0
+sri lanka|2016,1,0
+india|2016,0,1
+myanmar|2016,1,0
+egypt|2016,1,0
+armenia|2016,1,0
+kenya|2016,1,0
+ukraine|2016,1,0
+ghana|2016,0,1
+congo (kinshasa)|2016,1,0
+georgia|2016,1,0
+congo (brazzaville)|2016,1,0
+senegal|2016,1,0
+bulgaria|2016,0,1
+mauritania|2016,1,0
+zimbabwe|2016,1,0
+malawi|2016,1,0
+sudan|2016,0,1
+gabon|2016,0,1
+mali|2016,0,1
+haiti|2016,1,0
+botswana|2016,0,1
+comoros|2016,1,0
+ivory coast|2016,0,1
+cambodia|2016,1,0
+angola|2016,1,0
+niger|2016,0,1
+south sudan|2016,0,1
+chad|2016,1,0
+burkina faso|2016,0,1
+uganda|2016,1,0
+yemen|2016,1,0
+madagascar|2016,1,0
+tanzania|2016,1,0
+liberia|2016,1,0
+guinea|2016,1,0
+rwanda|2016,0,1
+benin|2016,1,0
+afghanistan|2016,0,1
+togo|2016,1,0
+syria|2016,1,0
+burundi|2016,1,0
+norway|2017,1,0
+denmark|2017,1,0
+iceland|2017,1,0
+switzerland|2017,1,0
+finland|2017,0,1
+netherlands|2017,1,0
+canada|2017,1,0
+new zealand|2017,1,0
+sweden|2017,1,0
+australia|2017,0,1
+israel|2017,1,0
+costa rica|2017,0,1
+austria|2017,1,0
+united states|2017,1,0
+ireland|2017,0,1
+germany|2017,1,0
+belgium|2017,0,1
+luxembourg|2017,0,1
+united kingdom|2017,0,1
+chile|2017,0,1
+united arab emirates|2017,1,0
+brazil|2017,0,1
+czech republic|2017,1,0
+argentina|2017,0,1
+mexico|2017,1,0
+singapore|2017,1,0
+malta|2017,1,0
+uruguay|2017,1,0
+guatemala|2017,1,0
+panama|2017,0,1
+france|2017,1,0
+thailand|2017,1,0
+taiwan|2017,1,0
+spain|2017,1,0
+qatar|2017,1,0
+colombia|2017,0,1
+saudi arabia|2017,0,1
+trinidad & tobago|2017,0,1
+kuwait|2017,1,0
+slovakia|2017,1,0
+bahrain|2017,1,0
+malaysia|2017,0,1
+nicaragua|2017,0,1
+ecuador|2017,1,0
+el salvador|2017,1,0
+poland|2017,0,1
+uzbekistan|2017,0,1
+italy|2017,0,1
+russia|2017,1,0
+belize|2017,1,0
+japan|2017,0,1
+lithuania|2017,1,0
+algeria|2017,1,0
+latvia|2017,0,1
+south korea|2017,1,0
+moldova|2017,1,0
+romania|2017,1,0
+bolivia|2017,1,0
+turkmenistan|2017,1,0
+kazakhstan|2017,1,0
+northern cyprus|2017,0,1
+slovenia|2017,1,0
+peru|2017,0,1
+mauritius|2017,1,0
+cyprus|2017,1,0
+estonia|2017,0,1
+belarus|2017,1,0
+libya|2017,1,0
+turkey|2017,1,0
+paraguay|2017,1,0
+hong kong|2017,1,0
+philippines|2017,1,0
+serbia|2017,1,0
+jordan|2017,1,0
+hungary|2017,1,0
+jamaica|2017,1,0
+croatia|2017,1,0
+kosovo|2017,1,0
+china|2017,0,1
+pakistan|2017,1,0
+indonesia|2017,1,0
+venezuela|2017,0,1
+montenegro|2017,1,0
+morocco|2017,0,1
+azerbaijan|2017,1,0
+dominican republic|2017,1,0
+greece|2017,1,0
+lebanon|2017,1,0
+portugal|2017,1,0
+bosnia and herzegovina|2017,0,1
+honduras|2017,0,1
+macedonia|2017,1,0
+somalia|2017,1,0
+vietnam|2017,1,0
+nigeria|2017,0,1
+tajikistan|2017,1,0
+bhutan|2017,0,1
+kyrgyzstan|2017,1,0
+nepal|2017,1,0
+mongolia|2017,1,0
+south africa|2017,1,0
+tunisia|2017,1,0
+palestinian territories|2017,1,0
+egypt|2017,1,0
+bulgaria|2017,1,0
+sierra leone|2017,0,1
+cameroon|2017,1,0
+iran|2017,1,0
+albania|2017,1,0
+bangladesh|2017,0,1
+namibia|2017,0,1
+kenya|2017,1,0
+mozambique|2017,1,0
+myanmar|2017,0,1
+senegal|2017,1,0
+zambia|2017,1,0
+iraq|2017,1,0
+gabon|2017,0,1
+ethiopia|2017,0,1
+sri lanka|2017,1,0
+armenia|2017,1,0
+india|2017,1,0
+mauritania|2017,1,0
+congo (brazzaville)|2017,1,0
+georgia|2017,0,1
+congo (kinshasa)|2017,1,0
+mali|2017,1,0
+ivory coast|2017,0,1
+cambodia|2017,0,1
+sudan|2017,0,1
+ghana|2017,1,0
+ukraine|2017,0,1
+uganda|2017,1,0
+burkina faso|2017,1,0
+niger|2017,1,0
+malawi|2017,1,0
+chad|2017,1,0
+zimbabwe|2017,1,0
+lesotho|2017,1,0
+angola|2017,1,0
+afghanistan|2017,1,0
+botswana|2017,0,1
+benin|2017,0,1
+madagascar|2017,1,0
+haiti|2017,1,0
+yemen|2017,1,0
+south sudan|2017,1,0
+liberia|2017,0,1
+guinea|2017,1,0
+togo|2017,1,0
+rwanda|2017,0,1
+syria|2017,1,0
+tanzania|2017,0,1
+burundi|2017,1,0
+central african republic|2017,1,0
+finland|2018,0,1
+norway|2018,1,0
+denmark|2018,1,0
+iceland|2018,1,0
+switzerland|2018,1,0
+netherlands|2018,1,0
+canada|2018,1,0
+new zealand|2018,1,0
+sweden|2018,1,0
+australia|2018,1,0
+united kingdom|2018,1,0
+austria|2018,1,0
+costa rica|2018,0,1
+ireland|2018,0,1
+germany|2018,1,0
+belgium|2018,0,1
+luxembourg|2018,1,0
+united states|2018,1,0
+israel|2018,1,0
+united arab emirates|2018,1,0
+czech republic|2018,0,1
+malta|2018,1,0
+france|2018,1,0
+mexico|2018,1,0
+chile|2018,1,0
+taiwan|2018,0,1
+panama|2018,1,0
+brazil|2018,1,0
+argentina|2018,1,0
+guatemala|2018,0,1
+uruguay|2018,1,0
+qatar|2018,0,1
+saudi arabia|2018,1,0
+singapore|2018,1,0
+malaysia|2018,1,0
+spain|2018,1,0
+colombia|2018,0,1
+trinidad & tobago|2018,0,1
+slovakia|2018,1,0
+el salvador|2018,1,0
+nicaragua|2018,1,0
+poland|2018,1,0
+bahrain|2018,0,1
+uzbekistan|2018,0,1
+kuwait|2018,0,1
+thailand|2018,0,1
+italy|2018,0,1
+ecuador|2018,1,0
+belize|2018,1,0
+lithuania|2018,1,0
+slovenia|2018,1,0
+romania|2018,0,1
+latvia|2018,0,1
+japan|2018,0,1
+mauritius|2018,1,0
+jamaica|2018,0,1
+south korea|2018,1,0
+northern cyprus|2018,1,0
+russia|2018,1,0
+kazakhstan|2018,1,0
+cyprus|2018,1,0
+bolivia|2018,1,0
+estonia|2018,1,0
+paraguay|2018,0,1
+peru|2018,1,0
+kosovo|2018,1,0
+moldova|2018,1,0
+turkmenistan|2018,0,1
+hungary|2018,0,1
+libya|2018,1,0
+philippines|2018,1,0
+honduras|2018,1,0
+belarus|2018,1,0
+turkey|2018,0,1
+pakistan|2018,0,1
+hong kong|2018,1,0
+portugal|2018,1,0
+serbia|2018,1,0
+greece|2018,1,0
+lebanon|2018,1,0
+montenegro|2018,1,0
+croatia|2018,1,0
+dominican republic|2018,1,0
+algeria|2018,1,0
+morocco|2018,1,0
+china|2018,1,0
+azerbaijan|2018,1,0
+tajikistan|2018,0,1
+macedonia|2018,0,1
+jordan|2018,1,0
+nigeria|2018,1,0
+kyrgyzstan|2018,1,0
+bosnia and herzegovina|2018,1,0
+mongolia|2018,1,0
+vietnam|2018,1,0
+indonesia|2018,1,0
+bhutan|2018,1,0
+somalia|2018,1,0
+cameroon|2018,0,1
+bulgaria|2018,1,0
+nepal|2018,1,0
+venezuela|2018,1,0
+gabon|2018,1,0
+palestinian territories|2018,1,0
+south africa|2018,1,0
+iran|2018,1,0
+ivory coast|2018,1,0
+ghana|2018,1,0
+senegal|2018,1,0
+laos|2018,0,1
+tunisia|2018,1,0
+albania|2018,0,1
+sierra leone|2018,0,1
+congo (brazzaville)|2018,0,1
+bangladesh|2018,1,0
+sri lanka|2018,1,0
+iraq|2018,1,0
+mali|2018,1,0
+namibia|2018,0,1
+cambodia|2018,1,0
+burkina faso|2018,0,1
+egypt|2018,0,1
+mozambique|2018,1,0
+kenya|2018,1,0
+zambia|2018,1,0
+mauritania|2018,0,1
+ethiopia|2018,0,1
+georgia|2018,1,0
+armenia|2018,1,0
+myanmar|2018,1,0
+chad|2018,1,0
+congo (kinshasa)|2018,1,0
+india|2018,0,1
+niger|2018,0,1
+uganda|2018,0,1
+benin|2018,1,0
+sudan|2018,1,0
+ukraine|2018,1,0
+togo|2018,0,1
+guinea|2018,1,0
+lesotho|2018,0,1
+angola|2018,1,0
+madagascar|2018,1,0
+zimbabwe|2018,0,1
+afghanistan|2018,1,0
+botswana|2018,0,1
+malawi|2018,0,1
+haiti|2018,1,0
+liberia|2018,0,1
+syria|2018,1,0
+rwanda|2018,1,0
+yemen|2018,1,0
+tanzania|2018,0,1
+south sudan|2018,1,0
+central african republic|2018,1,0
+burundi|2018,0,1
+finland|2019,0,1
+denmark|2019,0,1
+norway|2019,1,0
+iceland|2019,1,0
+netherlands|2019,1,0
+switzerland|2019,1,0
+sweden|2019,1,0
+new zealand|2019,0,1
+canada|2019,1,0
+austria|2019,0,1
+australia|2019,1,0
+costa rica|2019,1,0
+israel|2019,1,0
+luxembourg|2019,1,0
+united kingdom|2019,0,1
+ireland|2019,1,0
+germany|2019,1,0
+belgium|2019,0,1
+united states|2019,1,0
+czech republic|2019,1,0
+united arab emirates|2019,1,0
+malta|2019,1,0
+mexico|2019,1,0
+france|2019,0,1
+taiwan|2019,0,1
+chile|2019,0,1
+guatemala|2019,1,0
+saudi arabia|2019,1,0
+qatar|2019,0,1
+spain|2019,1,0
+panama|2019,1,0
+brazil|2019,0,1
+uruguay|2019,0,1
+singapore|2019,1,0
+el salvador|2019,1,0
+italy|2019,1,0
+bahrain|2019,1,0
+slovakia|2019,1,0
+trinidad & tobago|2019,1,0
+poland|2019,1,0
+uzbekistan|2019,1,0
+lithuania|2019,1,0
+colombia|2019,1,0
+slovenia|2019,1,0
+nicaragua|2019,0,1
+kosovo|2019,1,0
+argentina|2019,0,1
+romania|2019,0,1
+cyprus|2019,1,0
+ecuador|2019,0,1
+kuwait|2019,1,0
+thailand|2019,1,0
+latvia|2019,1,0
+south korea|2019,1,0
+estonia|2019,0,1
+jamaica|2019,1,0
+mauritius|2019,1,0
+japan|2019,0,1
+honduras|2019,1,0
+kazakhstan|2019,1,0
+bolivia|2019,1,0
+hungary|2019,1,0
+paraguay|2019,1,0
+northern cyprus|2019,0,1
+peru|2019,1,0
+portugal|2019,1,0
+pakistan|2019,1,0
+russia|2019,1,0
+philippines|2019,1,0
+serbia|2019,1,0
+moldova|2019,1,0
+libya|2019,0,1
+montenegro|2019,0,1
+tajikistan|2019,1,0
+croatia|2019,1,0
+hong kong|2019,1,0
+dominican republic|2019,1,0
+bosnia and herzegovina|2019,0,1
+turkey|2019,0,1
+malaysia|2019,1,0
+belarus|2019,0,1
+greece|2019,0,1
+mongolia|2019,1,0
+macedonia|2019,1,0
+nigeria|2019,1,0
+kyrgyzstan|2019,0,1
+turkmenistan|2019,1,0
+algeria|2019,0,1
+morocco|2019,1,0
+azerbaijan|2019,1,0
+lebanon|2019,1,0
+indonesia|2019,1,0
+china|2019,1,0
+vietnam|2019,0,1
+bhutan|2019,1,0
+cameroon|2019,1,0
+bulgaria|2019,1,0
+ghana|2019,1,0
+ivory coast|2019,0,1
+nepal|2019,1,0
+jordan|2019,1,0
+benin|2019,0,1
+congo (brazzaville)|2019,1,0
+gabon|2019,1,0
+laos|2019,1,0
+south africa|2019,1,0
+albania|2019,0,1
+venezuela|2019,0,1
+cambodia|2019,0,1
+palestinian territories|2019,1,0
+senegal|2019,1,0
+somalia|2019,1,0
+namibia|2019,0,1
+niger|2019,1,0
+burkina faso|2019,1,0
+armenia|2019,0,1
+iran|2019,1,0
+guinea|2019,1,0
+georgia|2019,0,1
+gambia|2019,1,0
+kenya|2019,1,0
+mauritania|2019,1,0
+mozambique|2019,0,1
+tunisia|2019,1,0
+bangladesh|2019,0,1
+iraq|2019,1,0
+congo (kinshasa)|2019,1,0
+mali|2019,1,0
+sierra leone|2019,1,0
+sri lanka|2019,1,0
+myanmar|2019,1,0
+chad|2019,1,0
+ukraine|2019,1,0
+ethiopia|2019,1,0
+eswatini|2019,1,0
+uganda|2019,1,0
+egypt|2019,0,1
+zambia|2019,1,0
+togo|2019,1,0
+india|2019,1,0
+liberia|2019,1,0
+comoros|2019,1,0
+madagascar|2019,0,1
+lesotho|2019,1,0
+burundi|2019,1,0
+zimbabwe|2019,1,0
+haiti|2019,0,1
+botswana|2019,1,0
+syria|2019,0,1
+malawi|2019,1,0
+yemen|2019,1,0
+rwanda|2019,0,1
+tanzania|2019,0,1
+afghanistan|2019,1,0
+central african republic|2019,0,1
+south sudan|2019,1,0

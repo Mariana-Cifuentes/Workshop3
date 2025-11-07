@@ -1,0 +1,17 @@
+# Core
+pandas==2.2.2
+numpy==1.26.4
+matplotlib==3.9.2
+seaborn==0.13.2
+statsmodel
+# Machine learning
+scikit-learn==1.5.2
+
+# Utilidades
+python-dotenv==1.0.1
+jupyterlab==4.2.4
+pip install requests pandas
+pip install kafka-python mysql-connector-python joblib
+pip install dash plotly
+pip install mysql-connector-python python-dotenv pandas numpy
+ pip install scipy
